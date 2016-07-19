@@ -13,7 +13,9 @@ logging: # <----New sections below
 
 greeting:
   displayFortune: true
-  
+
+ribbon: # <---NEW SECTION
+  IsSecure: false
 
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
