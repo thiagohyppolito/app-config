@@ -16,13 +16,5 @@ greeting:
 
 ribbon: # <---NEW SECTION
   IsSecure: false
-  
-spring:
-  application:
-    name: message-generation
-  cloud:
-    services:
-      registrationMethod: direct
-
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
