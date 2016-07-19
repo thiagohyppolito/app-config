@@ -22,7 +22,7 @@ spring:
     name: message-generation
   cloud:
     services:
-      registrationMethod: route
+      registrationMethod: direct
 
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
